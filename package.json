@@ -6,6 +6,12 @@
   "scripts": {
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
     "dev:backend": "cd backend && npm run dev",
-    "dev:frontend": "cd frontend && npm run dev"
+    "dev:frontend": "cd frontend && npm run dev",
+    "test:layout": "cd backend && npm run test:layout",
+    "test:visual": "node automated-tests/run-visual-tests.mjs",
+    "test:all": "node automated-tests/run-all-tests.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
   }
 }

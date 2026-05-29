@@ -1,6 +1,53 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Secrets — never commit
 .env
-*.env.local
-.DS_Store
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Runtime canvas state (recreated on run)
 backend/data/
+
+# Automated test artifacts (regenerate: npm run test:all)
+automated-tests/screenshots/
+playwright-report/
+test-results/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Optional local overrides
+*.local
+
+# Local-only (never commit)
+SUBMISSION.md
+.commitmsg*
+.c1hash
+.c1err
+.c2hash
+.c2err
+.h1
+.h2
+.m1
+.m2

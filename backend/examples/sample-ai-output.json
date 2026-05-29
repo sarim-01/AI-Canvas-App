@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    {
+      "type": "circle",
+      "x": 400,
+      "y": 300,
+      "radius": 32,
+      "label": "S",
+      "color": "#4F86C6"
+    },
+    {
+      "type": "circle",
+      "x": 400,
+      "y": 140,
+      "radius": 28,
+      "label": "1",
+      "color": "#E85D75"
+    },
+    {
+      "type": "circle",
+      "x": 539,
+      "y": 380,
+      "radius": 28,
+      "label": "2",
+      "color": "#52B788"
+    },
+    {
+      "type": "circle",
+      "x": 539,
+      "y": 220,
+      "radius": 28,
+      "label": "3",
+      "color": "#F4A261"
+    },
+    {
+      "type": "circle",
+      "x": 400,
+      "y": 460,
+      "radius": 28,
+      "label": "4",
+      "color": "#9B5DE5"
+    },
+    {
+      "type": "circle",
+      "x": 261,
+      "y": 380,
+      "radius": 28,
+      "label": "5",
+      "color": "#00BBF9"
+    },
+    {
+      "type": "circle",
+      "x": 261,
+      "y": 220,
+      "radius": 28,
+      "label": "6",
+      "color": "#F15BB5"
+    }
+  ]
+}

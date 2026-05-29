@@ -1,11 +1,13 @@
 # Frontend
 
-React + TypeScript + Vite + React Konva + Zustand.
+React + Vite + React Konva + Zustand + socket.io-client.
 
-Will be scaffolded with:
+## Run
 
 ```bash
-npm create vite@latest . -- --template react-ts
+cp .env.example .env
+npm install
+npm run dev
 ```
 
-Then: `react-konva`, `konva`, `zustand`, `socket.io-client`.
+Open http://localhost:5173 (backend must run on port 3001).
